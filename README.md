@@ -63,48 +63,25 @@ An object detection tools. Based on YOLOv3 with pretrained weights on COCO data 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
 ### Installation
 
-
-1. Clone this repo:
+1. Clone the repo
+```sh
+git clone https://github.com/RomanRes/Object-detection-tool-based-on-Dash-and-YOLOv3.git
 ```
-git clone https://github.com/plotly/dash-detr
-cd dash-detr
+2. Create a fresh venv (with `conda` or `virtualenv`) and activate it.
+
+3. Install the requirements:
 ```
-
-
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+pip install -r requirements.txt
+```
+4. Start the app:
+```
+python app.py
+```
+5. Open in browser `http://127.0.0.1:8050/`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
