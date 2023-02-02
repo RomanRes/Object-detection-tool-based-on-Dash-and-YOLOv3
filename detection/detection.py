@@ -183,7 +183,7 @@ def convert_to_BoundBox_class(boxes):
     return converted_boxes
 
 
-model = get_model(file_name="weights/model.h5")
+model = get_model()
 
 
 def predict_boxes(image, class_threshold, nms_thresh, ANCHORS, IMG_SIZE):

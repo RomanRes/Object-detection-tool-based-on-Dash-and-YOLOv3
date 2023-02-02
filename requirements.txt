@@ -1,0 +1,4 @@
+cpip3
+numpy
+matplotlib
+tensorflow
