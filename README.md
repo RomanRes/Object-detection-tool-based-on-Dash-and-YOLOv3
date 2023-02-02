@@ -63,7 +63,7 @@ git clone https://github.com/RomanRes/Object-detection-tool-based-on-Dash-and-YO
 ```
 pip install -r requirements.txt
 ```
-4. Load weights and put in "weights/"
+4. Load weights and put in main folder
 
    https://pjreddie.com/media/files/yolov3.weights
 
