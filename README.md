@@ -80,7 +80,7 @@ python app.py
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Open link r `http://127.0.0.1:8050/` in browser. The algorithm is able to recognize 80 classes of objects. App allows you to change the maximum value of the IOU between boxes of the same class, as well as the value of the probability of finding an object in a box, to eliminate unnecessary boxes.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
