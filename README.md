@@ -35,7 +35,7 @@
 
 An object detection tools. Based on YOLOv3 with pretrained weights on COCO data set. Can detect 80 classes.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -49,7 +49,7 @@ An object detection tools. Based on YOLOv3 with pretrained weights on COCO data 
 ![Dash](https://img.shields.io/badge/Dash-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Installation
 
@@ -74,7 +74,6 @@ python app.py
 ```
 6. Open in browser `http://127.0.0.1:8050/`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
@@ -83,4 +82,4 @@ python app.py
 The app allows you to change the maximum value of the IOU between boxes of the same class, as well as the value of the probability of finding an object in a box, to eliminate unnecessary boxes.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
