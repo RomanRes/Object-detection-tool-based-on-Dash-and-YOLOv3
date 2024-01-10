@@ -35,7 +35,7 @@
 
 An object detection tools. Based on YOLOv3 with pretrained weights on COCO data set. Can detect 80 classes.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -46,10 +46,10 @@ An object detection tools. Based on YOLOv3 with pretrained weights on COCO data 
 ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![Dash](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Installation
 
@@ -63,7 +63,7 @@ git clone https://github.com/RomanRes/Object-detection-tool-based-on-Dash-and-YO
 ```
 pip install -r requirements.txt
 ```
-4. Load weights and put in "weights/"
+4. Load weights and put in main folder
 
    https://pjreddie.com/media/files/yolov3.weights
 
@@ -74,14 +74,12 @@ python app.py
 ```
 6. Open in browser `http://127.0.0.1:8050/`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The app allows you to change the maximum value of the IOU between boxes of the same class, as well as the value of the probability of finding an object in a box, to eliminate unnecessary boxes.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
