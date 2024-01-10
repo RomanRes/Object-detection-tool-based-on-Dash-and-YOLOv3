@@ -1,4 +1,4 @@
-cpip3
+dash_bootstrap_components
 numpy
 matplotlib
 tensorflow

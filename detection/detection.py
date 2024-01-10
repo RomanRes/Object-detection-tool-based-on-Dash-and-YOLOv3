@@ -26,7 +26,6 @@ def decode_netout(netout, anchors, obj_thresh, img_h, img_w, nb_box=3):
 
     :return: ndarray with predicted boxes. size = (number of boxes, 85)
     """
-
     grid_h, grid_w = netout.shape[:2]
     netout = netout.reshape((grid_h, grid_w, nb_box, -1))
 
@@ -59,6 +58,7 @@ def decode_netout(netout, anchors, obj_thresh, img_h, img_w, nb_box=3):
     boxes = boxes[(boxes[..., 4:5] > obj_thresh).all(axis=3)]
 
     return boxes
+
 
 
 def convert_coordinates_to_minmax(boxes):
