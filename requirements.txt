@@ -2,3 +2,4 @@ dash_bootstrap_components
 numpy
 matplotlib
 tensorflow
+gunicorn>=20.1.0

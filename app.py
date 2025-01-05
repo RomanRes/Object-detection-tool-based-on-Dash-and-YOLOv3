@@ -12,6 +12,8 @@ app = dash.Dash(__name__,
                             'content': 'width=device-width, initial-scale=1.0'}]
                 )
 
+
+
 app.layout = html.Div([
 
     # header row
