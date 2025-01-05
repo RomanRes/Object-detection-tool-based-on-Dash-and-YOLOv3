@@ -5,9 +5,9 @@ from itertools import cycle
 from parameters.parameters import ANCHORS, IMG_SIZE
 
 
-def img_to_plotly_fig(image, image_w, image_h, class_threshold=0.5, nms_thresh=0.5):
+def img_to_plotly_fig(image, class_threshold=0.5, nms_thresh=0.5):
     """
-    This function produced neu new graphic object of class 'Figure'
+    This function produced new graphic object of class 'Figure'
 
     1. predict boxes for an image by calling predict_boxes()
     2. formed new graphic object with image and add predicted boxes
@@ -22,6 +22,7 @@ def img_to_plotly_fig(image, image_w, image_h, class_threshold=0.5, nms_thresh=0
     #img_width, img_height = img.size
 
     # detecting objects on the image
+    image_w, image_h = image.size
     boxes = predict_boxes(image, class_threshold, nms_thresh, ANCHORS, IMG_SIZE)
 
     # this list need for mapping colors to each class

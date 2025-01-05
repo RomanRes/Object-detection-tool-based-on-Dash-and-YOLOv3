@@ -104,8 +104,9 @@ def updateTable(n_clicks, contents, class_threshold, nms_thresh):
 
     """
     image = load_image_pixels(contents)
+    print(image)
     image_w, image_h = image.size
-    return img_to_plotly_fig(image, image_w, image_h, class_threshold=class_threshold, nms_thresh=nms_thresh)
+    return img_to_plotly_fig(image, class_threshold=class_threshold, nms_thresh=nms_thresh)
 
 
 if __name__ == '__main__':

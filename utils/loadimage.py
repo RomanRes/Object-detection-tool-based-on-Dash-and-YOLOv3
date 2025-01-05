@@ -7,6 +7,7 @@ from tensorflow.keras.utils import img_to_array
 
 
 def load_image_pixels(contents):
+    print("start load_image_pixels")
     if contents:
         image = contents.split(",")[1]
         image = base64.b64decode(image)
@@ -14,6 +15,7 @@ def load_image_pixels(contents):
     else:
         # default image if the image has not yet been uploaded by the user
         image = Image.open(r"img\000000000057.jpg")
+        print("end load_image_pixels")
     return image
 
 
